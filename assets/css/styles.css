@@ -1,0 +1,24 @@
+/* Custom styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/pattern-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.calendar-container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card {
+    transition: transform 0.2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-4px);
+}
